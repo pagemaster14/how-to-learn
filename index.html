@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
   <div class="page">
@@ -68,8 +68,8 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" id="ytplayer" type="text/html" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allowfullscreen></iframe>
-          <iframe class="video__iframe" id="ytplayer1" type="text/html" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allowfullscreen></iframe>
+          <iframe class="video__iframe" id="ytplayer" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          <iframe class="video__iframe" id="ytplayer1" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -133,7 +133,7 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -194,12 +194,12 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img src="images/logo/resources-arzamas.svg" alt="Арзамас" class="resources__logo">
-          <img src="images/logo/resources-n1.svg" alt="N1" class="resources__logo">
-          <img src="images/logo/resources-strelka.svg" alt="Стрелка" class="resources__logo">
-          <img src="images/logo/resources-polka.svg" alt="Полка" class="resources__logo">
-        </div>
+        <ul class="resources__logo-zone">
+          <li><a href="#"><img src="images/logo/resources-arzamas.svg" alt="Арзамас" class="resources__logo"></a></li>
+          <li><a href="#"></a><img src="images/logo/resources-n1.svg" alt="N1" class="resources__logo"></a></li>
+          <li><a href="#"><img src="images/logo/resources-strelka.svg" alt="Стрелка" class="resources__logo"></a></li>
+          <li><a href="#"><img src="images/logo/resources-polka.svg" alt="Полка" class="resources__logo"></a></li>
+        </ul>
       </section>
 
     </main>
