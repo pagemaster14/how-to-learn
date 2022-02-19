@@ -3,4 +3,5 @@
     margin: 0 auto 0;
     display: flex;
     flex-wrap: wrap;
+    column-gap: 20px;
   }
